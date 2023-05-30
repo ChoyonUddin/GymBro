@@ -7,4 +7,6 @@ Making some progress Right now I just got to figure out how to get column names 
 Figured out how to create new csvs from the names of exercises from the names column but now I have to just create them using
 different column names. It's a pretty dumb way tbh but I will figure the better way to do it. 
 
+May 27th
+---------
 That was a drunk commit lmao
