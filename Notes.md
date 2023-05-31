@@ -1,5 +1,7 @@
 May 26th
 ---------
+Not Exactly sure where I am going to go with GymBro but as of right now. GymBro is a program with the intention of tracking workouts, weights, lifts, and other data from the gym. Still working out how far I will take GymBro but ideally I want GymBro to be an app that can show me trends in my workouts and health based on gym data. Currently Working with Supabase.
+
 Right now I'm thinking about how I want to structure this. Ultimately I want want it to be almost exactly like fitnotes but
 having a section that shows you info on how you are progressing. So I'm thinking about having a data section where I do all the cool stuff. The logs section will be were new data is stored for lifts. As for the exercises themselves those have to be in there own category. 
 
@@ -10,3 +12,7 @@ different column names. It's a pretty dumb way tbh but I will figure the better 
 May 27th
 ---------
 That was a drunk commit lmao
+
+May 28th - May 30th
+---------
+I was busy and am going to be busy for the next couple of weeks hopefully I'll be able to get some progress not sure what my next step are gonna be. I also I accomplished what I set out to do that day. Now I just gotta figure what to do going forward.

@@ -4,36 +4,16 @@ import matplotlib as mpl
 import seaborn as sb
 import glob,os
 import Date
-os.chdir('C:\Programming\Python\Personal\GymBro\CSVs')
-
-#print(glob.glob('*.csv'))
-
-# Data
-df = pd.DataFrame(pd.read_csv('data.csv'))
-
-data = {'Date': [Date.formattedDate]}
-headers = ['Set','Reps','Weight','Date','Max Lift','Body Weight','Fat%','Phase','Completed','Notes']
-#print(headers)
-Edf = pd.DataFrame(data,columns=headers).fillna('N/A')
-#print(Edf)
-
-for i in df['Name']:
-    Edf.to_csv(f'{i}.csv')
-
-    #what I got to do right now is to make a dataframe that has the name of the categories only 
-    #I want to automatically do that so that Maybe I can find a way to make it easier
-    #Basically I am creating an empty csv with just the column names and making a new csv using the name from df
-    #1. I could just copy rather than convert 2. I could just get the names of the columns in an array
-    #without making it a csv and use those 3. I could just get all the names of the df without looping
-    
-
-#print(df.head(5)['Name'])
-'''
-for i in df['Name','Primary Focus']:
-    if i == 'Bench Press':
-        print(i)
-'''
-
-#print(df.head(10)['Name'] == 'Bench Press')
 
 
+df = pd.DataFrame(pd.read_csv('CSVs\Bench Press.csv'))
+columns = list(df.columns)
+
+data = {'Set':1,'Reps':12,'Weight':185,'Date':'05/30/23','Max Lift':-1,'Body Weight':200,'Fat%':20,'Phase':'cutting',
+        'Completed':'Yes','Notes':'Test'}
+
+#data2 = {i:input(f'{i} ') for i in df}
+
+#windows wsl2 - Windows 11 - ubuntu linux
+
+#print(data2)
