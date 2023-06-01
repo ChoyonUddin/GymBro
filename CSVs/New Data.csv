@@ -1,0 +1,6 @@
+,Unnamed: 0,Name,PrimaryFocus,Secondary Focus,Max Primary,Max Secondary,Categories,Equipment,Note
+0,0,Overhead Press,Reps,Weight,0,0.0,"Shoulders,Traps,Abdominals,Legs,Arms",None,
+1,1,Squat,Reps,Weight,0,0.0,"Glutes,Quads,Abdominals,Hips",Barbell,
+2,2,Leg Press,Reps,Weight,0,0.0,"Glutes,Quads",Machine,
+3,3,Lunge,Reps,Weight,0,0.0,"Glutes,Quads,Hamstring,Hips",Single Dumbbell,
+4,4,Deadlift,Reps,Weight,0,0.0,"Glutes,Quads,Hamstring,Hips,Lower Back",Barbell,

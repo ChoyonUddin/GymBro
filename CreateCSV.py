@@ -4,7 +4,7 @@ import matplotlib as mpl
 import seaborn as sb
 import glob,os
 import Date
-os.chdir('C:\Programming\Python\Personal\GymBro\CSVs')
+os.chdir('CSVs')
 
 #Creates CSV files from header + Some other stuff I was messing around with 
 '''
@@ -13,12 +13,11 @@ df = pd.DataFrame(pd.read_csv('data.csv'))
 
 data = {'Date': [Date.formattedDate]}
 headers = ['Set','Reps','Weight','Date','Max Lift','Body Weight','Fat%','Phase','Completed','Notes']
-#print(headers)
 Edf = pd.DataFrame(data,columns=headers).fillna('N/A')
 
 
 for i in df['Name']:
-    Edf.to_csv(f'{i}.csv')
+    Edf.to_csv(f'{i.replace(" ","_")}.csv',index=False)
 
     #what I got to do right now is to make a dataframe that has the name of the categories only 
     #I want to automatically do that so that Maybe I can find a way to make it easier

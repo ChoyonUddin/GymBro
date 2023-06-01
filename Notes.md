@@ -16,3 +16,19 @@ That was a drunk commit lmao
 May 28th - May 30th
 ---------
 I was busy and am going to be busy for the next couple of weeks hopefully I'll be able to get some progress not sure what my next step are gonna be. I also I accomplished what I set out to do that day. Now I just gotta figure what to do going forward.
+
+May 31st
+---------
+Got User input, now I just got to create a better loging system. Also remove spaces in names of files. Goal for Tommorrow is to have a proper logging system setup and then adjusting those vars such that I can use them for their intended purpose. Right now they all are added as strings but some are numbers. Also thing to look into, data will always be date. Once that Is COMPLETELY setup we can, it should be ready for frontend work (which I still have to learn). After logging, we can get started on DataShaping and trends which comes the acc Data Science part.
+
+This is the current roadmap I got planned for the next week or more.
+User input -> Logging System -> Vars -> (Frontend for later) -> DataShaping
+
+
+#windows wsl2 - Windows 11 - ubuntu linux
+
+June 1st
+----------
+I also got to work out how to organize all this like what to make functions and what to make different class files. For now I'm just storing them in files with the name pertaining to what it does.
+
+I just had the biggest monke brain moment ever. Basically wasted a lot of time. I accidentally changed the csvs in a way I didn't want to and I couldn't revert them back. Basically I changed their names so that there were no spaces but it looked unreadable. So Rather than doing something I should've done, I decided to start from scratch again because I did it before and It should be easy. When I went to my old code that I saved, I wasn't there. Only some of it, so I redid everything again and this time the data is actually better. When I went to go save that code in a file I saw that I had a file called 'CreateCsv', which was my old code.... I don't want to talk about it

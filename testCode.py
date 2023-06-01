@@ -5,6 +5,27 @@ import matplotlib as mpl
 import seaborn as sb
 import glob,os
 import Date
+
+#Makes a dataframe from given columns and data and makes them into
+#csvs using the names of the exercises from data.csv and saves it in folder 'CSVs'
+#os.chdir literally is not optimal but Had create a quick brainless solution after losing data
+'''
+
+os.chdir('CSVs')
+df = pd.DataFrame(pd.read_csv('data.csv'))
+
+data = {'Date': [formattedDate]}
+Headers = ['Set','Reps','Weight','Date','Max Lift','Body Weight','Fat%','Phase','Completed','Notes']
+
+Edf = pd.DataFrame(data,columns=Headers).fillna('N/A')
+
+for i in df['Name']:
+    Edf.to_csv(f'{i.replace(" ","_")}.csv',index=False)
+'''
+
+
+
+''' #Goofy Stuff
 df = pd.DataFrame(pd.read_csv('CSVs\Bench Press.csv'))
 #print(glob.glob('*.csv'))
 #print(df.head(5)['Name'])
@@ -25,14 +46,11 @@ for i in df['Name']:
 
 for i in df:
     print(i)
+'''
 
-    
-data = {'Name': ['']}
-headers = list(df.columns[1:])
-print(headers)
-Edf = pd.DataFrame(data,columns=headers)
 
-print(Edf)
+
+#Mark later
 '''
 #for i in range(len(df.head(1))):
     #df.to_csv(f'{df["Name"][i]}.csv')
