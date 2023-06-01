@@ -25,6 +25,17 @@ for i in df['Name']:
 
 
 
+
+'''#Might be useful for making a new exercise
+df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv'))
+#print(os.listdir("CSVs"))
+print(df)
+#User input for data
+data = {i:[input(f'{i} ')] if i != 'Date' else [formattedDate] for i in df}
+pd.DataFrame(data).to_csv('Bench_Press.csv')
+'''
+
+
 ''' #Goofy Stuff
 df = pd.DataFrame(pd.read_csv('CSVs\Bench Press.csv'))
 #print(glob.glob('*.csv'))

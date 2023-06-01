@@ -4,7 +4,9 @@ import matplotlib as mpl
 import seaborn as sb
 import glob,os
 import Date
-os.chdir('CSVs')
+#os.chdir('CSVs')
+
+Headers = ['Set','Reps','Weight','Date','Max Lift','Body Weight','Fat%','Phase','Completed','Notes']
 
 #Creates CSV files from header + Some other stuff I was messing around with 
 '''
