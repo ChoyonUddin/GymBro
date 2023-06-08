@@ -48,3 +48,7 @@ Might have to make another csv for the workout entered that day not sure. Nested
 If I were to have another csv it would be Headers = ['Workout':file, Date: int, Notes:Str]
 
 I might have to take a small break and think about how I want to proceed with this. Maybe a day or 3.
+
+June 8th
+---------
+So Apple apparently has taken my idea and made it there own. They are basically using Ai to do what I am trying to do. Bummer. I'm still going to complete this project or at least try to. I think I am going to worry about the UI/UX later and just getting the fundamentals working so now I'm going to work on the Math File to generate images and trends and some other stuff. Once I get that working I can worry about the other stuff. 
