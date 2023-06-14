@@ -52,3 +52,7 @@ I might have to take a small break and think about how I want to proceed with th
 June 8th
 ---------
 So Apple apparently has taken my idea and made it there own. They are basically using Ai to do what I am trying to do. Bummer. I'm still going to complete this project or at least try to. I think I am going to worry about the UI/UX later and just getting the fundamentals working so now I'm going to work on the Math File to generate images and trends and some other stuff. Once I get that working I can worry about the other stuff. 
+
+June 10th
+---------
+So Now that I have proven I can use seaborn for plotting, I am going to use Tkinter for actually inputing the data rather than looking user input and adding that list as a row to a csv. Once I get that done user input is pretty much done and just needs to be cleaned up maybe rerouted but the foundation is there. Then I can worry about organizing which I actually am worried about right now whether I want to keep them as csvs or make each workout an object.
