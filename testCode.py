@@ -6,6 +6,47 @@ import seaborn as sb
 import glob,os
 import Date
 
+#from math import linegraph
+#Temporary class
+
+#df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv'))
+
+df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv').iloc[1:3,0:3:2])
+
+#linegraph(data=df,x='Sets',y='Weight')
+'''
+#User input for data testing
+
+# Adds row
+
+# Creates new row to enter data for the csv
+#Later on I'm not going to want to do a loop cause that forces me to actually input all data and I cant go back
+#It's better to create them as fields and input the data through that way. That will allow me to edit the data. 
+#Not only that I can confirm through a submit and go back to edit the data later
+
+data = {i:[input(f'{i} ')] if i != 'Date' else [formattedDate] for i in Headers}
+#currently creating a new csv but i want to just add a row
+pd.DataFrame(data).to_csv('CSVs/Bench_Press.csv',mode='a',index=False,header=False)
+#pd.DataFrame().add(1,fill_value=0)
+#print(file='Bench_Press.csv')
+
+#Removes row
+
+#Overwrites row
+
+#windows wsl2 - Windows 11 - ubuntu linux
+
+'''
+
+
+
+
+
+
+
+
+
+
 #Makes a dataframe from given columns and data and makes them into
 #csvs using the names of the exercises from data.csv and saves it in folder 'CSVs'
 #os.chdir literally is not optimal but Had create a quick brainless solution after losing data
