@@ -4,6 +4,8 @@ import matplotlib as mpl
 import seaborn as sb
 import glob,os
 import Date
+
+#this is going to create the csv for a new workout!!!!!
 #os.chdir('CSVs')
 
 Headers = ['Set','Reps','Weight','Date','Max Lift','Body Weight','Fat%','Phase','Completed','Notes']
