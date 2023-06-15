@@ -5,49 +5,24 @@ import seaborn as sb
 import glob,os,csv
 from Date import formattedDate
 from CreateCSV import Headers
-#from math import linegraph
-#Temporary class
+from tkinter import *
+#user input the way I want it 
+df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv'))
+#print(df)
 
-#df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv'))
+#Tkinter stuff
+root = Tk()
 
-df = pd.DataFrame(pd.read_csv('CSVs/Bench_Press.csv').iloc[1:3,0:3:2])
+#Labels
+e = Entry(root,border=5,borderwidth=5,bg='white',fg='blue')
+e.pack()
+def onClick():
+    my_label = Label(root,text= e.get())#.grid(column=1,row=1)
+    my_label.pack()
 
-#linegraph(data=df,x='Sets',y='Weight')
-'''
-#User input for data testing
+#Button
+my_button = Button(root,text="Click Me",command=onClick)
+my_button.pack()
 
-# Adds row
+root.mainloop()
 
-# Creates new row to enter data for the csv
-data = {i:[input(f'{i} ')] if i != 'Date' else [formattedDate] for i in Headers}
-#currently creating a new csv but i want to just add a row
-pd.DataFrame(data).to_csv('CSVs/Bench_Press.csv',mode='a',index=False,header=False)
-#pd.DataFrame().add(1,fill_value=0)
-#print(file='Bench_Press.csv')
-
-#Removes row
-
-#Overwrites row
-
-#windows wsl2 - Windows 11 - ubuntu linux
-
-'''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#data2 = {'Set':1,'Reps':12,'Weight':185,'Date':'05/30/23','Max Lift':-1,'Body Weight':200,'Fat%':20,'Phase':'cutting',
-#        'Completed':'Yes','Notes':'Test'}
