@@ -56,3 +56,7 @@ So Apple apparently has taken my idea and made it there own. They are basically 
 June 10th
 ---------
 So Now that I have proven I can use seaborn for plotting, I am going to use Tkinter for actually inputing the data rather than looking user input and adding that list as a row to a csv. Once I get that done user input is pretty much done and just needs to be cleaned up maybe rerouted but the foundation is there. Then I can worry about organizing which I actually am worried about right now whether I want to keep them as csvs or make each workout an object.
+
+June 28th
+---------
+Taking a break for now and working on me for now. Trying to cut down.
